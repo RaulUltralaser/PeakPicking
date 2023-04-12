@@ -1,4 +1,3 @@
-
 clc 
 clearvars
 close all
@@ -7,10 +6,10 @@ close all
 Fs=100;
 
 %Importar datos
-load('Datos/DatosAcelerometr.mat')
+load('Datos/DatosAcelerometro.mat')
 
 % datos=str2double(X1);%Cambiar este valor por el sensor que se requiera
-datos = Acelerometer.signals.values;%Usar esto para cuando se tomen datos del acelerometro
+datos = ScopeData2.signals.values;%Usar esto para cuando se tomen datos del acelerometro
 
 % Preprocesamiento de datos
 datos_filt = medfilt1(datos, 5);
