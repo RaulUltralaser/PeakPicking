@@ -1,5 +1,6 @@
 # Ignora la carpeta que simulink crea forzosamente
 ArduinoBase_ert_rtw
+slprj
 
 # Ignora los archivos que se generán por simulink y arduino
 *.eep
