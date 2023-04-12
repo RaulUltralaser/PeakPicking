@@ -8,7 +8,7 @@ load('Datos/DatosAcelerometro.mat');
 y = ScopeData2.signals.values; %valores de la señal
 t= ScopeData2.time; %tiempo de la señal
 L=length(t);   %largo de la señal 
-Fs=100;    %Frecuencia de muestreo en Hz
+Fs=1000;    %Frecuencia de muestreo en Hz
 T=1/Fs;   %el periodo de muestreo
 G=2;  %ganancia de las frecuencias en graficas (ayuda a ver mejor
 %las frecuencias en las que se presentan picos, pero altera su amplitud,
