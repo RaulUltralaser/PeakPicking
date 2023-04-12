@@ -7,9 +7,10 @@ close all
 Fs=100;
 
 %Importar datos
-load('cambiosDeFrecuencia.mat')
+load('Datos/DatosAcelerometr.mat')
 
-datos=str2double(X1);%Cambiar este valor por el sensor que se requiera
+% datos=str2double(X1);%Cambiar este valor por el sensor que se requiera
+datos = Acelerometer.signals.values;%Usar esto para cuando se tomen datos del acelerometro
 
 % Preprocesamiento de datos
 datos_filt = medfilt1(datos, 5);
