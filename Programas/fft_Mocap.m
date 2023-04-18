@@ -2,7 +2,7 @@ clc
 clearvars
 close all
 
-load('cambiosDeFrecuencia.mat');
+load('Datos/cambiosDeFrecuencia.mat');
 
 L=length(Frame);   %largo de la señal 
 Fs=100;    %Frecuencia de muestreo en Hz
