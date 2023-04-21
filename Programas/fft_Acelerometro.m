@@ -2,11 +2,11 @@ clc
 clearvars
 close all
 
-load('Datos/DatosAcelerometro.mat');
+load('Datos/CambiosDeFrecuencia.mat');
 
 
-y = ScopeData2.signals.values; %valores de la señal
-t= ScopeData2.time; %tiempo de la señal
+y = Acelerometro.signals.values; %valores de la señal
+t= Acelerometro.time; %tiempo de la señal
 L=length(t);   %largo de la señal 
 Fs=1000;    %Frecuencia de muestreo en Hz
 T=1/Fs;   %el periodo de muestreo
