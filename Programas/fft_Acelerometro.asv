@@ -24,18 +24,14 @@ G=2;  %ganancia de las frecuencias en graficas (ayuda a ver mejor
 % originalmente debe ser igual a dos para dar la correcta representación)
 
 %% Calculo de la FFT 
-f = Fs*(0:(L/2))/L; %Establece las frecuencias que se van a mostrar
-% siempre son la mitad de la frecuencia de muestreo
-yP=fft(y); %Esta función el la FFT de las señales registradas
+f = Fs*(0:(L/2))/L;
+yP=fft(y);
 
-%aquí se acomoda la fft para que solo muestre las respectivas a las 
-%freuencias, esto es porque la fft se duplica, es decir, la mitad de la fft
-% es igual a la otra mitad pero espejeada
 P2P = abs(yP/L);
 P1P = P2P(1:(L/2)+1);
 P1P(2:end-1) = G*P1P(2:end-1);
 
-%% Plotea los resultados
+
 figure('Name','fft de las mediciones del acelerometro');
 subplot(2,1,1)
 plot(t,y,'k')

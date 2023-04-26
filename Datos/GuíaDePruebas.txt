@@ -1,3 +1,7 @@
 26 abril 2023
 
-Prueba1: datos tomados con una frecuencia de muestreo de 1000 Hz. El actuador de la perturbación estaba en una frecuencia fija a 5.6 Hz
+Prueba1: datos tomados con una frecuencia de muestreo de 1000 Hz. El actuador de la perturbación estaba en una frecuencia fija a 5.6 Hz en generador de señales
+
+Prueba2: Periodo de muestreo 0.009. El actuador a perturbación fija con Arduino en 5.72 Hz (por error registre la salida con el nombre de acelerometr no acerometro)
+
+Prueba3: Periodo de muestreo 0.001. Actuador a perturbación fija con Arduino en 5.72 Hz

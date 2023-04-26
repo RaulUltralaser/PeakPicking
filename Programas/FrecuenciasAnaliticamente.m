@@ -1,15 +1,15 @@
 clc
 clearvars
 close all 
-
-% Proposito del programa:
-%     mostrar rapidamente las frecuencias naturales, para comparar
-%     estás que son calculadas analiticamente con las calculadas con los
-%     datos recolectados
 % 
-% Nota: para ver las frecuencias se debe hacer click en esa variable en 
-%       el workspace. También se calcula los modeshapes y los factores de 
-%       amortiguamiento.
+% % Proposito del programa:
+% %     mostrar rapidamente las frecuencias naturales, para comparar
+% %     estás que son calculadas analiticamente con las calculadas con los
+% %     datos recolectados
+% % 
+% % Nota: para ver las frecuencias se debe hacer click en esa variable en 
+% %       el workspace. También se calcula los modeshapes y los factores de 
+% %       amortiguamiento.
 
 %% Escribir los parametrós manualmente
 %%%%%%%%%%%%%%%%%%% valores mecanicos %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
