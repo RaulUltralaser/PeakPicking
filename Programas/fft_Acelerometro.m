@@ -2,7 +2,7 @@ clc
 clearvars
 close all
 
-load('Datos/CambiosDeFrecuencia.mat');
+load(['Datos/Prueba1.mat']);
 
 
 y = Acelerometro.signals.values; %valores de la señal
