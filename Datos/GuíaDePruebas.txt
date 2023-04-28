@@ -10,3 +10,6 @@ Prueba4: Periodo de muestreo 0.01. Arduino con barrido senoidal va como de 1 a 1
 
 Prueba5: Periodo de muestreo 0.01. Generador a 5.5 Hz
 
+Prueba6: Periodo de muestreo 0.02. Generador a 5.5 Hz
+
+Prueba7: Periodo de muestreo 0.03. Generador a 5.5 Hz
