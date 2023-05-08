@@ -3,13 +3,14 @@ clearvars
 close all
 
 %Especificar datos
-Fs=100;
+Fs=33.33;             %Frecuencia de muestreo/cambiarla dependiendo de la
+                      %prueba a correr
 
 %Importar datos
-load('Datos/DatosAcelerometro.mat')
+load('Datos/Prueba7.mat')
 
 % datos=str2double(X1);%Cambiar este valor por el sensor que se requiera
-datos = ScopeData2.signals.values;%Usar esto para cuando se tomen datos del acelerometro
+datos = Acelerometro.signals.values;%Usar esto para cuando se tomen datos del acelerometro
 
 % Preprocesamiento de datos
 datos_filt = medfilt1(datos, 5);
