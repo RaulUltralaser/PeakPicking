@@ -13,3 +13,15 @@ Prueba5: Periodo de muestreo 0.01. Generador a 5.5 Hz
 Prueba6: Periodo de muestreo 0.02. Generador a 5.5 Hz
 
 Prueba7: Periodo de muestreo 0.03. Generador a 5.5 Hz
+
+Prueba8: Periodo de muestreo 0.03. Un golpe con el dedo 
+
+Prueba9: Periodo de muestreo 0.01. Arduino fijo (programa de para pruebas)
+
+Prueba10: Perido de muestreo 0.005. Arduino fijo mismo programa
+
+Prueba11: Periodo de muestreo 0.002. Arduino fijo mismo programa
+
+Prueba12: Periodo de muestreo 0.001. Arduino fijo mismo programa
+
+Prueba13: Periodo de muestreo 0.0005. Arduino fijo mismo programa
