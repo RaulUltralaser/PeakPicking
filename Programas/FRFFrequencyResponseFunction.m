@@ -3,11 +3,12 @@ clearvars
 close all
 
 %Especificar datos
-Fs=33.33;             %Frecuencia de muestreo/cambiarla dependiendo de la
-                      %prueba a correr
+Ts=0.03;             %Periodo de muestreo (el que establezco en matlab)
+Fs=1/Ts;             %Frecuencia de muestreo/cambiarla dependiendo de la
+                     %prueba a correr
 
 %Importar datos
-load('Datos/Prueba7.mat')
+load('Datos/Prueba8.mat')
 
 % datos=str2double(X1);%Cambiar este valor por el sensor que se requiera
 datos = Acelerometro.signals.values;%Usar esto para cuando se tomen datos del acelerometro

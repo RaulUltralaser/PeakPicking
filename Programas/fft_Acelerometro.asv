@@ -10,13 +10,13 @@ clearvars
 % %         Los datos previamente obtenido guardados como un archivo ".mat"
 
 %% Preparación de datos
-load(['Datos/Prueba13.mat']); %Cargar los datos (el archivo .mat)
+load(['Datos/Prueba9.mat']); %Cargar los datos (el archivo .mat)
 
 
 y = Acelerometro.signals.values; %valores de la señal
 t= Acelerometro.time; %tiempo de la señal
 L=length(t);   %largo de la señal 
-Ts=0.0005;   %el periodo de muestreo (asegurarse que sea el periodo correcto 
+Ts=0.001;   %el periodo de muestreo (asegurarse que sea el periodo correcto 
 % marcado en simulink al momento de registrar los datos)
 Fs=1/Ts;    %Frecuencia de muestreo en Hz
 G=2;  %ganancia de las frecuencias en graficas (ayuda a ver mejor
