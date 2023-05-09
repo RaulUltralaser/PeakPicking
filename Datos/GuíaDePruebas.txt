@@ -25,3 +25,10 @@ Prueba11: Periodo de muestreo 0.002. Arduino fijo mismo programa
 Prueba12: Periodo de muestreo 0.001. Arduino fijo mismo programa
 
 Prueba13: Periodo de muestreo 0.0005. Arduino fijo mismo programa
+
+Prueba14: Periodo de muestreo 0.02. Arduino fijo mismo programa (A partir de estas pruebas grabó tambien los valores de los ejes x y y)
+
+Prueba15: Periodo de muestreo 0.1. Arduino fijo mismo programa
+
+Prueba16: Periodo de muetero 0.01. Arduino fijo mismo programa 
+
