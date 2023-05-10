@@ -1,6 +1,6 @@
 clc
 clearvars
-close all 
+%close all 
 % 
 % % Proposito del programa:
 % %     mostrar rapidamente las frecuencias naturales, para comparar
