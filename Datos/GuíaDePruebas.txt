@@ -32,3 +32,7 @@ Prueba15: Periodo de muestreo 0.1. Arduino fijo mismo programa
 
 Prueba16: Periodo de muetero 0.01. Arduino fijo mismo programa 
 
+Prueba 17: Periodo de muestreo a 0.004. Arduino fijo mismo programa (cambie la especificación del ancho de banda del acelerometro)
+
+Preuba 18: Periodo de muestreo a 0.007. Arduino fijo mismo programa mismo cambio de las especificaciones del sensor.
+
