@@ -36,3 +36,7 @@ Prueba 17: Periodo de muestreo a 0.004. Arduino fijo mismo programa (cambie la e
 
 Preuba 18: Periodo de muestreo a 0.007. Arduino fijo mismo programa mismo cambio de las especificaciones del sensor.
 
+Prueba 19: Periodo de muestreo a 0.004. Con un golpe 
+
+Prueba 20: Periodo de muestreo a 0.01. Con un golpe
+
