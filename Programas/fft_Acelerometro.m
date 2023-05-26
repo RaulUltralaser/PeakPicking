@@ -10,7 +10,7 @@ clearvars
 % %         Los datos previamente obtenido guardados como un archivo ".mat"
 
 %% Preparación de datos
-load(['Datos/Prueba19.mat']); %Cargar los datos (el archivo .mat)
+load(['S1H20.mat']); %Cargar los datos (el archivo .mat)
 
 
 z = Acelerometro.signals.values; %valores de la señal
@@ -55,14 +55,14 @@ ylabel('Amplitud')
 grid on
 
 
-figure('Name','mediciones del eje x')
-plot(t,x,'k')
-title('Aceleración medida en el eje x')
-xlabel('tiempo s')
-ylabel('m/s^2')
-
-figure('Name','mediciones del eje y')
-plot(t,y,'k')
-title('Aceleración medida en el eje y')
-xlabel('tiempo s')
-ylabel('m/s^2')
+% figure('Name','mediciones del eje x')
+% plot(t,x,'k')
+% title('Aceleración medida en el eje x')
+% xlabel('tiempo s')
+% ylabel('m/s^2')
+% 
+% figure('Name','mediciones del eje y')
+% plot(t,y,'k')
+% title('Aceleración medida en el eje y')
+% xlabel('tiempo s')
+% ylabel('m/s^2')
