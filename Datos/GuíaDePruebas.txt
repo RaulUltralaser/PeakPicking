@@ -40,3 +40,6 @@ Prueba 19: Periodo de muestreo a 0.004. Con un golpe
 
 Prueba 20: Periodo de muestreo a 0.01. Con un golpe
 
+Carpeta HammerTest, la cague porque tome las muestras a 0.01. con un golpe 
+
+
