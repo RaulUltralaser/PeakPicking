@@ -10,7 +10,7 @@ clearvars
 % %         Los datos previamente obtenido guardados como un archivo ".mat"
 
 %% Preparación de datos
-load(['S1H7.mat']); %Cargar los datos (el archivo .mat)
+load(['S1H1.mat']); %Cargar los datos (el archivo .mat)
 
 
 z = Acelerometro.signals.values; %valores de la señal
